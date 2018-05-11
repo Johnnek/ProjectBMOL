@@ -2,5 +2,6 @@
 #include <iostream>
 
 class Spielfeld {
-
+private:
+	float movespeed;
 };
