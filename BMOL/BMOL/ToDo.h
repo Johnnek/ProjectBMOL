@@ -11,7 +11,7 @@ Maps{};
 
 Methoden:
 	enum Walkable{GO, NOGO}
-	enum Gamestate{}
+	enum Gamestate{ TITLESCREEN, MENU, INGAME, INGAMEDEAD, INGAMEALIVE }
 
 Structs:
 
