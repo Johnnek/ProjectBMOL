@@ -1,9 +1,22 @@
 #pragma once
 #include <iostream>
+#include <string>
 
-class Spielfeld {
+using namespace std;
+
+class Field {
 private:
-	float movespeed;
-	float irgend;
-	int iVariable;
+
+};
+
+class Player {
+private:
+	int iID;				// Player 1-4
+	string sPlayername;		// Nickname
+public:
+	void setID();			// set PlayerID
+	void setPlayername();	// set Nickname
+
+	int getID();			// get PlayerID
+	string getPlayername();	// get Nickname
 };

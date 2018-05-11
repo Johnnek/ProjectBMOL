@@ -18,6 +18,9 @@
     <ClInclude Include="Header.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="ToDo.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Quelle.cpp">
