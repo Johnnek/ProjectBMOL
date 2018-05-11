@@ -4,5 +4,6 @@
 class Spielfeld {
 private:
 	float movespeed;
+	float irgend;
 	int iVariable;
 };
