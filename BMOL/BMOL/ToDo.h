@@ -15,7 +15,8 @@ Methoden:
 
 Structs:
 
-struct Field{
+struct Field
+{
 	 int aField[x][y];
 
 };
