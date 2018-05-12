@@ -8,9 +8,8 @@ Player{};
 Bomb{};
 Maps{};
 
-
 Methoden:
-	enum Walkable{GO, NOGO}
+	enum Walkable{ GO, NOGO }
 	enum Gamestate{ TITLESCREEN, MENU, INGAME, INGAMEDEAD, INGAMEALIVE }
 
 Structs:
@@ -18,10 +17,5 @@ Structs:
 struct Field
 {
 	 int aField[x][y];
-
 };
 */
-
-
-
-
