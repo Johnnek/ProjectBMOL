@@ -11,6 +11,7 @@ Maps{};
 Methoden:
 	enum Walkable{ GO, NOGO }
 	enum Gamestate{ TITLESCREEN, MENU, INGAME, INGAMEDEAD, INGAMEALIVE }
+	enum Hud{ TIME, POWERUP }
 
 Structs:
 
