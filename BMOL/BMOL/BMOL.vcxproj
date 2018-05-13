@@ -143,11 +143,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="ToDo.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FuBomb.cpp" />
+    <ClCompile Include="FuPlayer.cpp" />
     <ClCompile Include="Quelle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
