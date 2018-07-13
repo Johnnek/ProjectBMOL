@@ -1,4 +1,5 @@
-#include "Header.h"
+#include "FuPlayer.cpp"
+#include "FuBomb.cpp"
 
 void main() {
 	
